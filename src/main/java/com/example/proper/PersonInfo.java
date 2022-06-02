@@ -14,8 +14,6 @@ import java.util.List;
 
 @Entity
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class PersonInfo {
     @Id
     @Column(name = "id", nullable = false)
