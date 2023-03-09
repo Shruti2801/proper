@@ -45,59 +45,59 @@ public class PersonInfo {
     @Column(name = "email2")
     private String email2;
 
-    @Column(name = "university_name")
-    private String universityName;
-    @Column(name = "university_degree")
-    private String degree;
-    @Column(name = "university_field_of_study")
-    private String fieldOfStudy;
-    @Column(name = "university_start_year")
-    private String universityStartYear;
-    @Column(name = "university_end_year")
-    private String universityEndYear;
-    @Column(name = "university_percentage")
-    private String universityPercentage;
-
-
-
-    @Column(name = "ptoject_name")
-    private String ptojectName;
-    @Column(name = "project_description")
-    private String projectDescription;
-    @Column(name = "project_role")
-    private String role;
-    @Column(name = "project_designation")
-    private String designation;
-    @Column(name = "project_start_year")
-    private String projectStartYear;
-    @Column(name = "project_end_year")
-    private String projectEndYear;
-    @Column(name = "project_technologies")
-    @ElementCollection
-    @OrderColumn(name = "pos")
-    private String[] technologies;
-
-
-    @Column(name = "government_identity")
-    private String governmentIdentity;
-
-
-    @Column(name = "houseNo")
-    private String houseNo;
-    @Column(name = "area")
-    private String area;
-    @Column(name = "landmark")
-    private String landmark;
-    @Column(name = "city")
-    private String city;
-    @Column(name = "pincode")
-    private String pincode;
-    @Column(name = "state")
-    private String state;
-    @Column(name = "country")
-    private String country;
-
-
+//    @Column(name = "university_name")
+//    private String universityName;
+//    @Column(name = "university_degree")
+//    private String degree;
+//    @Column(name = "university_field_of_study")
+//    private String fieldOfStudy;
+//    @Column(name = "university_start_year")
+//    private String universityStartYear;
+//    @Column(name = "university_end_year")
+//    private String universityEndYear;
+//    @Column(name = "university_percentage")
+//    private String universityPercentage;
+//
+//
+//
+//    @Column(name = "ptoject_name")
+//    private String ptojectName;
+//    @Column(name = "project_description")
+//    private String projectDescription;
+//    @Column(name = "project_role")
+//    private String role;
+//    @Column(name = "project_designation")
+//    private String designation;
+//    @Column(name = "project_start_year")
+//    private String projectStartYear;
+//    @Column(name = "project_end_year")
+//    private String projectEndYear;
+//    @Column(name = "project_technologies")
+//    @ElementCollection
+//    @OrderColumn(name = "pos")
+//    private String[] technologies;
+//
+//
+//    @Column(name = "government_identity")
+//    private String governmentIdentity;
+//
+//
+//    @Column(name = "houseNo")
+//    private String houseNo;
+//    @Column(name = "area")
+//    private String area;
+//    @Column(name = "landmark")
+//    private String landmark;
+//    @Column(name = "city")
+//    private String city;
+//    @Column(name = "pincode")
+//    private String pincode;
+//    @Column(name = "state")
+//    private String state;
+//    @Column(name = "country")
+//    private String country;
+//
+//
 
 
 
